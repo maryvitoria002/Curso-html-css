@@ -1,0 +1,18 @@
+/* Seletor universal */
+    /* Aplica-se em todos os elementos da página */
+
+*{
+    border: 1px solid red;
+}
+
+/* Seletor de texto */
+    /* Seleciona o elemento pelo tipo */
+h1{
+    color: green;
+}
+
+/* Seletor de classe */
+    /* Seleciona um elemento cujo atributo class tem o valor especificado depois do ponto */
+.verde{
+    
+}
