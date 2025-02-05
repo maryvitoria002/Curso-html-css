@@ -22,16 +22,16 @@
     /* Seleciona um elemento cujo atributo class tem o valor especificado depois do ponto */
     
 
-p.verde{
+/* p.verde{
     color: green;
-}
+} */
 
 /* Seletor de ID */
     /* Seleciona um elemento cujo atributo id tem o valor especificado após o símbolo de cerquilha ou jogo da velha */
 
-#cabecalho {
+/* #cabecalho {
     border: 1px solid blue;
-}
+} */
 
 /* Seletor de filho */
     /* Seleciona um elemento que é filho direto de outro */
@@ -50,15 +50,15 @@ div a {
 /* Seletor de irmão adjacente */
     /* Seleciona um elemento que é o irmão próximo de outro, o que vem logo depois*/
 
-h1 +p{
+/* h1 +p{
     color: red;
-}
+} */
 
 /* Seletor de irmão geral */
     /* Seleciona um elemento que é o irmão de outro, embora ele nao precise ser o elemento diretamente precedente*/
-h1~p {
+/* h1~p {
     color: pink
-}
+} */
 
 /* Herança e especificidade */
 
@@ -78,11 +78,39 @@ p{
 } */
 
 /* Se um seletor for mais específico que outro a regra mais especifica sera aplicada (terá precedência sobre regras mais gerais */
-
+/* 
 *{
     color: blue;
 }
 
 h2{
     color: blue
+} */
+
+
+/* BARRA DE NAVEGAÇÃO VERTICAL */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a{ 
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 40px;
+    display: block;
+    /* Display block da pra definir uma largura enquanto o inline tem o tamanho do conteudo html */
+    background: url(../img/menu.png) no-repeat left bottom;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px; 
+    /* O line-height é pra centralizar o nome, ele vem por padrão com o tamanho da letra, mas se eu colocar ele do tamanho da altura, ele fica centralizado */
+}
+
+a:hover{
+    background-position: right bottom;
+    color: #fff;
 }
