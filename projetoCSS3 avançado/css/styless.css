@@ -1,18 +1,88 @@
 /* Seletor universal */
     /* Aplica-se em todos os elementos da página */
 
-*{
+/* *{
     border: 1px solid red;
-}
+} */
+
+
 
 /* Seletor de texto */
+
     /* Seleciona o elemento pelo tipo */
-h1{
+
+/* h1{
+    color: green;
+} */
+
+
+
+/* Seletor de classe */
+
+    /* Seleciona um elemento cujo atributo class tem o valor especificado depois do ponto */
+    
+
+p.verde{
     color: green;
 }
 
-/* Seletor de classe */
-    /* Seleciona um elemento cujo atributo class tem o valor especificado depois do ponto */
-.verde{
-    
+/* Seletor de ID */
+    /* Seleciona um elemento cujo atributo id tem o valor especificado após o símbolo de cerquilha ou jogo da velha */
+
+#cabecalho {
+    border: 1px solid blue;
+}
+
+/* Seletor de filho */
+    /* Seleciona um elemento que é filho direto de outro */
+/* li>a{
+    color: red;
+    text-decoration: none;
+} */
+
+/* Seletor de descendente */
+    /* Seleciona um elemento que é descendente de outro elemento especificado (e não apenas filho direto desse elemento) */
+/* 
+div a {
+    color: green;
+} */
+
+/* Seletor de irmão adjacente */
+    /* Seleciona um elemento que é o irmão próximo de outro, o que vem logo depois*/
+
+h1 +p{
+    color: red;
+}
+
+/* Seletor de irmão geral */
+    /* Seleciona um elemento que é o irmão de outro, embora ele nao precise ser o elemento diretamente precedente*/
+h1~p {
+    color: pink
+}
+
+/* Herança e especificidade */
+
+/* body{
+    color: red;
+    border: 5px solid blue;
+} */
+
+/* Seletores iguais o último que é aplicado */
+
+/* p{
+    color: blue !important ;
+}
+
+p{
+    color: red
+} */
+
+/* Se um seletor for mais específico que outro a regra mais especifica sera aplicada (terá precedência sobre regras mais gerais */
+
+*{
+    color: blue;
+}
+
+h2{
+    color: blue
 }
