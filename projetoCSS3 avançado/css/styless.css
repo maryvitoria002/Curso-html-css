@@ -102,7 +102,7 @@ ul a{
     height: 40px;
     display: block;
     /* Display block da pra definir uma largura enquanto o inline tem o tamanho do conteudo html */
-    background: url(../img/menu.png) no-repeat left bottom;
+    background: #f7b600 url(../img/menu.png) no-repeat left bottom;
     color: #000;
     text-decoration: none;
     text-indent: 40px;
@@ -110,7 +110,16 @@ ul a{
     /* O line-height é pra centralizar o nome, ele vem por padrão com o tamanho da letra, mas se eu colocar ele do tamanho da altura, ele fica centralizado */
 }
 
-a:hover{
+a:hover, .selecionado a{
     background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#sobre #navegacao .sobre a,
+#home #navegacao .home a, 
+#servicos #navegacao .servicos a{
+    background-position: right bottom;
+    background-color: #f99200;
     color: #fff;
 }
