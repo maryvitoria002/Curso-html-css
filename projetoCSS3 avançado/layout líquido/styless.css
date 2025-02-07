@@ -4,15 +4,12 @@ body{
 }
 
 #container{
-    width: 85%;
+    width: 720px;
     margin: 0 auto;
     background: #fff;
-    min-width: 720px;
-    max-width: 1280px;
 }
 
 #marca{
-    width: 100%;
     height: 100px;
     background: #9e9e9e;
     text-align: center;
@@ -20,17 +17,17 @@ body{
 }
 
 #conteudo{
-    width: 75%;
+    width: 520px;
     float: right;
 }
 
 #conteudo-principal{
-    width: 64%;
+    width: 320px;
     float: left;
 }
 
 #conteudo-secundario{
-    width: 34%;
+    width: 180px;
     float: right;
     background: #d1d1d1;
 }
@@ -40,8 +37,10 @@ body{
     padding-right: 20px;
 }
    
+
+
 #navegacao{
-    width: 23%;
+    width: 180px;
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
