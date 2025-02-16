@@ -1,0 +1,9 @@
+@font-face {
+    font-family: mayonice;
+    src: url(Mayonice.woff);
+}
+
+h1{
+    font-size: 6em;
+    font-family: mayonice;
+}
