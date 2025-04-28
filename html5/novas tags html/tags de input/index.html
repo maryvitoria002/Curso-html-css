@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas tags de input</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    
+   <form action="">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" required autofocus>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required>
+        <br><br>
+
+        <!-- Número -->
+        <label for="numero">Número</label>
+        <input type="number" id="numero" min="1" max="20" step="5">
+        <br><br>
+
+        <!-- Url -->
+        <label for="url">Url</label>
+        <input type="url" id="url" placeholder="ex: http://www...">
+        <br><br>
+
+        <!-- Pesquisa  -->
+        <label for="pesquisa">Pesquisa</label>
+        <input type="search" id="pesquisa">
+        <br><br>
+
+        <!-- Range  -->
+        <label for="range">Range</label>
+        <input type="range" id="range" min="1" max="20" value="10">
+        <br><br>
+
+        <!-- Data  -->
+        <label for="data">Data</label>
+        <input type="date" id="data">
+        <br><br>
+
+        <!-- Color  -->
+        <label for="cor">Cor</label>
+        <input type="color" id="cor">
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    
+
+</body>
+
+</html>
